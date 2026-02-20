@@ -22,3 +22,153 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# =========================
+# OS / Filesystem
+# =========================
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# =========================
+# Logs
+# =========================
+logs/
+.out
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.
+*.env
+application-local.yml
+application-local.yaml
+application-local.properties
+*.secret
+*.key
+*.pem
+*.p12
+
+# =========================
+# Java / Kotlin Compiled
+# =========================
+.kotlin_module
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+.gradle-cache/
+.gradle-test-kit/
+gradle-app.setting
+
+# Kotlin DSL
+.gradle.kts.cache
+
+# =========================
+# Maven
+# =========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.mvn/timing.properties
+
+# =========================
+# Spring Boot
+# =========================
+spring.log
+hs_err_pid
+replay_pid
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+.ipr
+.iws
+out/
+
+# Allow shared code style if you want
+#!.idea/codeStyles
+#!.idea/inspectionProfiles
+
+# =========================
+# Eclipse
+# =========================
+.project
+.classpath
+.settings/
+.factorypath
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+
+# =========================
+# Kotlin / Kapt / Annotation Processors
+# =========================
+kapt/
+kaptGenerated/
+generated/
+generated-sources/
+annotationProcessorGeneratedSources/
+
+# =========================
+# Testing
+# =========================
+test-output/
+surefire-reports/
+failsafe-reports/
+jacoco.exec
+coverage/
+.lcov
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+.pid
+
+# =========================
+# Node (for frontend inside Spring Boot projects)
+# =========================
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# =========================
+# Database (local dev)
+# =========================
+*.db
+*.sqlite
+*.h2.db
+.mv.db
+
+# =========================
+# Misc
+# =========================
+tmp/
+temp/
+.cache/
+.attach_pid
