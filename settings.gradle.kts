@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "AdventureMaker"
 include(":app")
 include(":domain")
+include(":data")
